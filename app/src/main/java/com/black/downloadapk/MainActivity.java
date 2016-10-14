@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mContext = this;
+        //fff
         initViews();
     }
 
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         tvStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new ApkDownLoad().downApk();
+                new ApkDownLoad("dsd",3).downApk();
 
             }
         });

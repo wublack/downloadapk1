@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mContext = this;
         //fff
+        //几个月了荒废了 测试
         initViews();
     }
 

@@ -13,4 +13,6 @@ public class Contant {
 
     public final static int DOWNLOADING = 3;
 
+    public final static String HTTPURL="http://www.1sju.com/html5/downloadAndroid";
+
 }

@@ -28,7 +28,7 @@ public class ApkDownLoad {
             @Override
             public void run() {
                 try {
-                    URL url = new URL("http://www.1sju.com/html5/downloadAndroid");
+                    URL url = new URL(Contant.HTTPURL);
                     HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 
                     urlConnection.setRequestMethod("POST");
